@@ -12,7 +12,7 @@ header{
     background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
     font-family: merriweather;
     height: 600px;
-    width: 1320px;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,10 +22,6 @@ header{
     padding: 177PX 0PX;
     height: 236px;
     width: 632px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 .upper-title{
     text-align: center;
@@ -42,10 +38,11 @@ header{
 /* Header area ends here */
 
 /* main section starts here */
-     /* disacount section */
-.new-year-discount{
-    width: 1320px;
+section{
+    /* width: 1320px; */
+    width: 100vw;
 }
+     /* disacount section */
 
 .discount-container{
     height: 806px;
@@ -82,4 +79,53 @@ header{
 .discount-img{
 width: 802.9px;
 height: 500px;
+}
+    /* discount section ends here */
+
+    /* party section starts here */
+
+.party{
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.party-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 39px   ;
+}
+.party-greeting{
+    width: 642px;
+    height: 176px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+}
+.party-subtitle{
+    height: 60px;
+    width: 697px;
+    margin: 32px 0px 48px 0px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+.party-join{
+    height: 24px;
+    width: 103px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
 }
