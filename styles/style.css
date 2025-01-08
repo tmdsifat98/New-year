@@ -181,4 +181,70 @@ height: 500px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+}
+
+    /* Venue section ends here */
+
+    /* offer section starts here */
+.offer{
+    height: 463px;
+    display: flex;
+    align-items: center;
+    }
+.new-offer{
+    width: 393px;
+    height: 255px;
+}
+.new-offer-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+.offer-status{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 16px 0px 22px 0px;
+}
+.offer-subtitle{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.offer-celebrate img{
+    width: 364.84px;
+    height: 364.84px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border: 13px solid red;
+    /* border-image: url("../images/Rectangle\ 2.png") 25 stretch; */
+    border-radius: 50%;
+    margin: 0px 118px 0px 60px;
+}
+.year{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+}
+.year-subtitle{
+    width: 276px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.offer .year-last-description img{
+    width: 140px;
+    height: 140px;
     }
