@@ -247,4 +247,55 @@ height: 500px;
 .offer .year-last-description img{
     width: 140px;
     height: 140px;
-    }
+}
+
+   /* offer section ends here */
+    
+   /* offer section starts here */
+
+.holiday-offer{
+    background: url("../images/Rectangle\ 2.png" ) ;
+    background-position:40% bottom;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.holiday-offer-container{
+    width: 1068px;
+    height: 260px;
+    margin: 0px auto;
+}
+
+.offer-title{
+    /* width: 263px; */
+    height: 29px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.h-o-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.h-o-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.holiday-offer-image{
+    height: 662px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount-half{
+    width: 206px;
+    height: 206px;
+}
