@@ -12,7 +12,7 @@ header{
     background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
     font-family: merriweather;
     height: 600px;
-    width: 100vw;
+    width: 1320px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,8 +39,8 @@ header{
 
 /* main section starts here */
 section{
-    /* width: 1320px; */
-    width: 100vw;
+    width: 1320px;
+    margin: 30px 0;
 }
      /* disacount section */
 
@@ -129,3 +129,56 @@ height: 500px;
     text-align: center;
     text-transform: uppercase;
 }
+
+   /* party section ends here */
+
+      /* Venue section starts here */
+
+.venue{
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+
+}
+.venue-container{
+    width: 549px;
+    height: 272px;
+}
+.venue-location{
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+.color{
+    color: red;
+}
+.venue button{
+
+    width: 167px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 32px 16px 32px;
+    margin: 48px auto;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    }
