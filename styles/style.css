@@ -8,3 +8,37 @@
 }
 
 /* Header section */
+header{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
+    font-family: merriweather;
+    height: 600px;
+    width: 1320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-subtitle{
+    margin: 0px auto;
+    padding: 177PX 0PX;
+    height: 236px;
+    width: 632px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.upper-title{
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+}
+.lower-title{
+    text-align: center;
+    color: #ffffff ;
+    font-size: 72px;
+    width: 632px;
+    font-weight: 900;
+}
+/* Header area ends here */
+
